@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #2E7D32;
+    --primary-dark: #1B5E20;
+    --accent: #F57F17;
+    --background: #F8FAF6;
+    --surface: #FFFFFF;
+    --text-main: #202820;
+    --text-muted: #657367;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-main);
+    font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+  }
+}
